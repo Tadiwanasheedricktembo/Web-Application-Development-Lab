@@ -1,0 +1,99 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Question17</title>
+</head>
+<body>
+<form action="Question18.html" method="post" autocomplete="on">
+<fieldset>
+<legend>FORM</legend>
+<label for="fname">First name</label>
+<input type="text" id="fname" name="fname"/>
+<br>
+<br>
+<label for="lname">Last name</label>
+<input type="text" id="lname" name="lname"/>
+<br>
+<br>
+ <label for="phone">Phone Number:</label>
+            <input type="number" id="phone" name="phone" maxlength="10" required>
+<br>
+<br>
+<label for="email">Email address:</label>
+            <input type="email" id="email" name="email" required>
+<br>
+<br>
+<label for="pass">Password</label>
+<input type="password" id="pass" name="pass"/>
+<br>
+<br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+<br>
+<br>
+Gender
+<input type="radio" id="male" name="gender"/>
+Male
+<input type="radio" id="female" name="gender"/>
+Female
+<input type="radio" id="other" name="gender"/>
+Other
+<br>
+<br>
+<label for="language">Language</label>
+            <input list="languages" id="language" name="language" required>
+            <datalist id="languages">
+                <option value="English">
+                <option value="Hindi">
+                <option value="Shona">
+                <option value="Korean">
+            </datalist>
+<br>
+<br>
+Course
+<input type="checkbox" id="c" name="course"/>
+C
+<input type="checkbox" id="c++" name="course"/>
+C++
+<input type="checkbox" id="java" name="course"/>
+Java
+<input type="checkbox" id="ai" name="course"/>
+AI
+<input type="checkbox" id="ml" name="course"/>
+Machine Learning
+<input type="checkbox" id="robotics" name="course"/>
+Robotics
+
+<br><br>
+Department
+<select name="department" id="department">
+<option value="cse">CSE</option>
+<option value="ee">EEE</option>
+<option value="bba">BBA</option>
+</select>
+
+<br>
+<br>
+<label for="comment">Your comment</label>
+<br><br>
+<textarea rows="5" cols="10">
+</textarea>
+<br><br>
+<input type="file" id="browse" name="browse"/>
+<br>
+<br>
+<label for="cars">Favorite car</label>
+<select>
+<option>Buggatti</option>
+<option>Benz</option>
+<option>BMW</option>
+<option>Volkswagon</option>
+</select>
+<br>
+<br>
+<input type="reset" value="Reset">
+<input type="submit" value="Submit" name="submit" id="submit">
+</fieldset>
+</form>
+</body>
+<html>
