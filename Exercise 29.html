@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sort Array</title>
+  <script>
+    function sortArray() {
+      let numbers = [34, 7, 23, 32, 5, 62];
+      document.getElementById("output").innerText = "Sorted array: " + numbers.sort((a, b) => a - b).join(", ");
+    }
+  </script>
+</head>
+<body>
+  <h1>Sorting Array</h1>
+  <button onclick="sortArray()">Sort Array</button>
+  <p id="output"></p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Find Min and Max</title>
+  <script>
+    function findMinMax() {
+ 
+      let num1 = parseFloat(prompt("Enter the first number:"));
+      let num2 = parseFloat(prompt("Enter the second number:"));
+      let num3 = parseFloat(prompt("Enter the third number:"));
+
+      let min = Math.min(num1, num2, num3);
+      let max = Math.max(num1, num2, num3);
+
+
+      document.getElementById("result").innerHTML = 
+        `<b>Minimum: ${min}</b><br><b>Maximum: ${max}</b>`;
+    }
+  </script>
+</head>
+<body>
+  <h1>Find Minimum and Maximum</h1>
+  <button onclick="findMinMax()">Find Min and Max</button>
+  <p id="result"></p>
+</body>
+</html>
