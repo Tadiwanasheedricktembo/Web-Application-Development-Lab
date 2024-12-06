@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function addnumbers(){
+var x=document.getElementById("num1").value;
+var y=document.getElementById("num2").value;
+var z=parseInt(x)+parseInt(y);
+window.alert(z);
+}
+</script>
+<title>Exercise 27</title>
+</head>
+<body>
+<h1>Write a program to add numbers using form in JavaScript</h1>
+<form>
+Number 1
+<input type="text" id="num1"/>
+<br>
+Number 2
+<input type="text" id="num2"/>
+<button type="button" onclick="addnumbers()">Compute</button></form>
+</body>
+</html>
